@@ -1,16 +1,17 @@
 #include "lists.h"
+#imclude <stdio.h>
 
 /**
- * check_circle - checks if a linked list contains a cycle
+ * check_cycle - checks if a linked list contains a cycle
  * @list: linked list to check
  *
  * Return: 1 if the list has a cycle, 0 if it doesn't
  */
 int main ()
 {
-  int check_circle();
+  int check_cycle();
 }
-  int check_circle(listint_t *list)
+  int check_cycle(listint_t *list)
   {
     listint_t *first_node = list;
     listint_t *second_node = list;
